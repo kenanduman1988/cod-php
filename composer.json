@@ -3,8 +3,8 @@
     "description": "PHP API wrapper for the Call of Duty API.",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^6.3",
-        "php": "^7.2"
+        "guzzlehttp/guzzle": "^6.2 || ^7.0",
+        "php": ">=7.4"
     },
     "autoload": {
         "psr-4": {"CallOfDuty\\": "src/"}
